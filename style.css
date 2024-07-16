@@ -1,72 +1,108 @@
+ h1 {
+        text-align: center;
+        font-family: monospace;
+      }
 
+      #myCarousel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
 
-h1 {
-    text-align: center;
-    
-}
+      img {
+        border-radius: 15px;
+      }
 
-#myCarousel{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
-    
-}
+      .foot {
+        height: 31vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        margin-top: 25px;
+      }
 
-img{
-    border-radius: 15px;
-}
+      .mind {
+        width: 10%;
+        margin-top: 13px;
+        margin-left: 32%;
+        transition: transform 150ms ease-in-out;
+      }
+      .mind:hover {
+        transform: scale(1.5);
+        filter: contrast(50%);
+      }
+      .run {
+        width: 10%;
+        margin-top: 13px;
+        margin-left: 15px;
+        transition: transform 150ms ease-in-out;
+      }
+      .run:hover {
+        filter: contrast(50%);
+        transform: scale(1.5);
+      }
+      .bike {
+        width: 10%;
+        margin-top: 13px;
+        margin-left: 15px;
+        transition: transform 150ms ease-in-out;
+      }
+      .bike:hover {
+        filter: contrast(50%);
+        transform: scale(1.5);
+      }
 
-footer{
-       height: 31vh;
-  width: 100vw;
-  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-   margin-top: 25px;
-    
-}
+      p {
+        text-align: center;
+        margin-top: 25px;
+      }
 
-.mind{
-    width: 10%;
-    margin-top: 13px;
-    margin-left: 32%;
-}
+      h6 {
+        text-align: center;
+      }
 
-.run{
-    width: 10%;
-    margin-top: 13px;
-    margin-left: 15px;
-}
+      .carousel-caption {
+        top: 8px;
+        left: 16px;
+      }
 
-.bike{
-    width: 10%;
-    margin-top: 13px;
-    margin-left: 15px;
-}
+      h2 {
+        position: absolute;
+        top: 25%;
+        right: 35%;
+        font-family: monospace;
+      }
 
-.para{
-    text-align: center;
-    margin-top: 25px;
-}
+      .dark {
+        background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        color: black;
+        font-size: small;
+        border-radius: 7px;
+      }
 
-h6 {
-    text-align: center;
-}
+      .dark:hover {
+        color: white;
+        background: linear-gradient(
+          114.3deg,
+          rgb(19, 126, 57) 0.2%,
+          rgb(8, 65, 91) 68.5%
+        );
+      }
 
+      .dark .foot {
+        background: linear-gradient(
+          114.3deg,
+          rgb(19, 126, 57) 0.2%,
+          rgb(8, 65, 91) 68.5%
+        );
+      }
 
+      .dark a {
+        color: green
+      }
 
-
-.carousel-caption {
-    
-  top: 8px;
-  left: 16px;
-}
-
-h2 {
-   position: absolute;
-  top: 25%;
-  right: 35%; 
-  font-family: cursive;
-
-}
-
+      .dark {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
